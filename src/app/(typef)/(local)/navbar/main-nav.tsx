@@ -20,10 +20,10 @@ export function MainNav({
                 Games
             </Link>
             <Link
-                href="#"
+                href="/hosting/dashboard"
                 className="text-muted-foreground hover:text-foreground"
             >
-                Blog
+                Hosting
             </Link>
         </nav>
     );

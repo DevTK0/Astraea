@@ -27,6 +27,10 @@ export default function Layout({
 }>) {
     return (
         <ServerLayout routes={routes} serverName="Astraea Palworld">
+            <Note type="warning">
+                Free weekend servers are only available from Friday 8:00 PM to
+                Sunday 10:00 PM.
+            </Note>
             {children}
         </ServerLayout>
     );
